@@ -10,6 +10,7 @@ To receive all points, you must:
 * Split the data into training and testing datasets by using train_test_split. (5 points)
 
 **Create a Logistic Regression Model with the Original Data (20 points)**
+
 To receive all points, you must:
 * Fit a logistic regression model by using the training data (X_train and y_train). (5 points)
 * Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model. (5 points)
@@ -20,6 +21,7 @@ To receive all points, you must:
    + Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels? (5 points)
 
 **Predict a Logistic Regression Model with Resampled Training Data (20 points)**
+
 To receive all points, you must:
 * Use the RandomOverSampler module from the imbalanced-learn library to resample the data. (5 points)
 * Use the LogisticRegression classifier and the resampled data to fit the model and make predictions. (5 points)
@@ -30,12 +32,14 @@ To receive all points, you must:
   + Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the 0 (healthy loan) and 1 (high-risk loan) labels? (5 points)
 
 **Write a Credit Risk Analysis Report (10 points)**
+
 To receive all points, you must:
 * Provide an overview that explains the purpose of this analysis. (3 points)
 * Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of both machine learning models. (3 points)
 * Summarize the results from the machine learning models. Compare the two versions of the dataset predictions. Include your recommendation, if any, for the model to use the original vs. the resampled data. If you don’t recommend either model, justify your reasoning. (4 points)
 
 **Coding Conventions and Formatting (10 points)**
+
 To receive all points, you must:
 * Place imports at the top of the file, just after any module comments and docstrings, and before module globals and constants. (3 points)
 * Name functions and variables with lowercase characters, with words separated by underscores. (2 points)
@@ -43,12 +47,14 @@ To receive all points, you must:
 * Use concise logic and creative engineering where possible. (2 points)
 
 **Deployment and Submission (10 points)**
+
 To receive all points, you must:
 * Submit a link to a GitHub repository that’s cloned to your local machine and that contains your files. (4 points)
 * Use the command line to add your files the repository. (3 points)
 * Include appropriate commit messages for your files. (3 points)
 
 **Code Comments (10 points)**
+
 To receive all points, your code must:
 * Be well commented with concise, relevant notes that other developers can understand. (10 points)
 
